@@ -2,6 +2,7 @@ import React from 'react'
 import "./Header.css"
 import CTA from './CTA'
 import joy from "../../assets/joy.jpg"
+import HeaderSocial from './HeaderSocial'
 
 const Header = () => {
   return (
@@ -11,9 +12,13 @@ const Header = () => {
        <h1>Pelumi Joy Fasunhanmi</h1>
        <h5 className='text-light'>Fullstack Engineer</h5>
        <CTA/>
+       <HeaderSocial/>
        <div className="me">
         <img src={joy} alt="Joy" />
        </div>
+      
+
+       <a href="#Contact" className='scroll_down'>Scroll Down</a>
     </div>
    </header>
   )
