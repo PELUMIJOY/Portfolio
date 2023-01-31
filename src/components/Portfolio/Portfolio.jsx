@@ -15,19 +15,21 @@ const Portfolio = () => {
     },
     {
       id: 3,
+      title: "Css Animation Torist website",
+      demo: " https://tourism-world.netlify.app",
+    },
+
+    {
+      id: 4,
       title: "AnimaFarm",
       demo: " https://animafarm.onrender.com",
     },
     {
-      id: 4,
-      title:"Book Management Application",
-      demo: "https://github.com",
-    },
-    {
       id: 5,
-      title: "Css Animation Torist website",
-      demo: " https://pelumijoy-starwar-project.netlify.app",
+      title:"Book Management Application",
+      demo: "https://github.com/PELUMIJOY/BookLibrary",
     },
+    
     {
       id: 6,
       title: "Static Residence website",
