@@ -49,7 +49,7 @@ const Portfolio = () => {
         data.map(({ id, title, demo }) => {
           return (
             <article key={id} className="portfolio_item">
-              <div className="portfolio_item_image"></div>
+              {/* <div className="portfolio_item"></div> */}
               <h3>{title}</h3>
               <a href={demo} className="btn" target="_blank">
                 Link

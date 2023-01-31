@@ -17,14 +17,14 @@
 
 }
 
-.about__me_image {
+.about__me_im {
   border-radius: 2rem;
   overflow: hidden; 
   transform: rotate(0g); 
   transition: var(--transition);
 }
 
-.about__me_image:hover {
+.about__me_im:hover {
     transform: rotate(10deg);
 }
 
