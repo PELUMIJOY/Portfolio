@@ -1,14 +1,17 @@
 import React from "react";
 import "./About.css";
-import joy from "../../assets/joy.jpg";
+import joy from "../../assets/joy.png";
 import { FaAward } from "react-icons/fa";
 import { HiUsers } from "react-icons/hi";
 import { VscFolderLibrary } from "react-icons/vsc";
 const About = () => {
   return (
     <section id="about">
+      <div className='section_top'>
       <h5>Get To Know</h5>
       <h2>About Me</h2>
+      </div>
+      
       <div className="container about_container">
         <div className="about__me">
           <div className="about__me_image">

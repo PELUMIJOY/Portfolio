@@ -15,10 +15,10 @@ const App = () => {
     <Header />
     <Nav />
     <About />
-    <Contact />
     <Experience />
-    <Portfolio />
     <Service />
+    <Portfolio />
+    <Contact />
     <Footer />
     </div>
   )

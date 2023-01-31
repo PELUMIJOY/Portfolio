@@ -36,8 +36,11 @@ const Portfolio = () => {
   ];
   return (
     <section id="portfolio">
+      <div className="section_top">
       <h5> My Recent Work</h5>
       <h2>Portfolio</h2>
+      </div>
+      
 
       <div className="container portfolio_container">
         {

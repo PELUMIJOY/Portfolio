@@ -16,9 +16,12 @@ const Contact = () => {
       e.target.reset()
   };
   return (
-    <section id='contact'>
+    <section id='Contact'>
+      <div className='section_top'>
       <h5>Get In Touch</h5>
       <h2>Contact Me</h2>
+      </div>
+      
 
       <div className="container contact_container">
         
@@ -39,15 +42,18 @@ const Contact = () => {
             <BsWhatsapp className='contact-option-icon'/>
           <h4>WhatsApp</h4>
           <h5>+2349036028379 </h5>
-          <a href="https://api.whatsapp.com/send?phone+2349036028379" target="_blank">Send a Message</a>
+          <a href="https://wa.me/2349036028379" target="_blank">Send a Message</a>
           </article>
         </div>
+        <div>
         <form ref={form} onSubmit={sendEmail}>
           <input type="text" name='name' placeholder='Your full Name' required/>
           <input type="email" name="email" placeholder='Input your Email'  require/>
           <textarea name="message"rows="7" placeholder='Your Message'></textarea>
           <button type='submit' className='btn  btn-primary'> Send Message</button>
         </form>
+        </div>
+        
       </div>
     </section>
   )
