@@ -4,6 +4,7 @@ import { FaLaptopCode } from "react-icons/fa";
 // import {FaDatabase} from 'react-icons/fa'
 import { FaCode } from "react-icons/fa";
 import { MdOutlineIntegrationInstructions } from "react-icons/md";
+import {SiJirasoftware} from "react-icons/si";
 
 const Service = () => {
   const data = [
@@ -24,6 +25,12 @@ const Service = () => {
       logo: <MdOutlineIntegrationInstructions />,
       title: "Workflow Automation And CI",
       skills: " Git, Github Action, Docker.",
+    },
+    {
+      id: 3,
+      logo: <SiJirasoftware/>,
+      title: "Project Management Tool",
+      skills: "Jira",
     },
   ];
 

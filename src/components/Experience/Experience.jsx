@@ -18,7 +18,7 @@ const Experience = () => {
               <BsPatchCheckFill className='experience_details_icon'/>
               <div>
               <h4>React</h4>
-              <small className='text-light'>Intermidate</small>
+              <small className='text-light'>Intermedate</small>
               </div>
               </article>
               <article className='experience_details'>
@@ -40,7 +40,7 @@ const Experience = () => {
               <BsPatchCheckFill className='experience_details_icon'/>
               <div>
               <h4>Javascript</h4>
-              <small className='text-light'>Intermidate</small>
+              <small className='text-light'>Intermedate</small>
               </div>
               </article>
             </div>
@@ -53,14 +53,14 @@ const Experience = () => {
               <BsPatchCheckFill className='experience_details_icon'/>
               <div>
               <h4>Nodejs</h4>
-              <small className='text-light'>Intermidate</small>
+              <small className='text-light'>Intermedate</small>
               </div>
               </article>
               <article className='experience_details'>
               <BsPatchCheckFill className='experience_details_icon'/>
               <div>
               <h4>Typescript</h4>
-              <small className='text-light'>Intermidate</small>
+              <small className='text-light'>Intermedate</small>
               </div>
               </article>
               <article className='experience_details'>
@@ -74,14 +74,14 @@ const Experience = () => {
               <BsPatchCheckFill className='experience_details_icon'/>
               <div>
               <h4>MongoDB</h4>
-              <small className='text-light'>Intermidate</small>
+              <small className='text-light'>Intermedate</small>
               </div>
               </article>
               <article className='experience_details'>
               <BsPatchCheckFill className='experience_details_icon'/>
               <div>
               <h4>GraphQL</h4>
-              <small className='text-light'>Intermidate</small>
+              <small className='text-light'>Intermedate</small>
               </div>
               </article>
             </div>
