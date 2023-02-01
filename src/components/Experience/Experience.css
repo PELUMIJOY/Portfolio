@@ -47,7 +47,7 @@
         grid-template-columns: 1fr;
     }
 
-    .experience_container > dive{
+    .experience_container > div{
         width:80%;
         margin: 0 auto ;
         padding: 2rem;

@@ -13,9 +13,9 @@ const Header = () => {
        <h5 className='text-light'>Fullstack Engineer</h5>
        <CTA/>
        <HeaderSocial/>
-       <div className="me">
+       {/* <div className="me">
         <img src={joy} alt="Joy" />
-       </div>
+       </div> */}
       
 
        <a href="#contact" className='scroll_down'>Scroll Down</a>
