@@ -95,10 +95,7 @@ header{
     }  */
 }
 @media screen and (max-width: 600px){
-    header{
-        height: 50vh;
-        
-    }
+   
    .scroll_down{
     display: none;
     }
