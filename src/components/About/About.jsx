@@ -23,9 +23,9 @@ const About = () => {
             <article className="about__card">
               <FaAward className="about__icons" />
               <h5>Experience</h5>
-              <small>2 years o</small>
+              <small>2 years </small>
             </article>
-            <article className="about__card">
+            {/* <article className="about__card">
               <HiUsers className="about__icons" />
               <h5>Clients</h5>
               <small>2 years </small>
@@ -34,7 +34,7 @@ const About = () => {
               <VscFolderLibrary className="about__icons" />
               <h5>Project</h5>
               <small>20+</small>
-            </article>
+            </article> */}
           </div>
           <p>
             I am Pelumi Joy Fasunhanmi a software engineer with a passion for

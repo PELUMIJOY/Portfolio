@@ -21,17 +21,12 @@ const Portfolio = () => {
 
     {
       id: 4,
-      title: "AnimaFarm",
-      demo: " https://animafarm.onrender.com",
-    },
-    {
-      id: 5,
-      title:"Book Management Application",
+      title:"Book Management Application (Backend)",
       demo: "https://github.com/PELUMIJOY/BookLibrary",
     },
     
     {
-      id: 6,
+      id: 5,
       title: "Static Residence website",
       demo: "https://cool-life.netlify.app/",
     },

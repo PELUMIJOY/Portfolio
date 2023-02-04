@@ -31,13 +31,14 @@
 
 .about_cards{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap:1.5rem;
+    /* grid-template-columns: repeat(3, 1fr); */
+    /* gap:1.5rem; */
 }
 .about__card{
     background: var(--color-bg-variant);
     border: 1px solid transparent;
     border-radius: 1rem;
+    justify-content: center;
     padding: 2rem;
     text-align: center;
     transition:var(--transition)
@@ -51,7 +52,7 @@
 
 .about__icons{
     color: var(--colour-primary);
-    font-size: 1.4rem;
+    font-size: 2rem;
     margin-bottom: 1rem;
 }
 
@@ -92,10 +93,10 @@
             width:65%;
             margin: 0 auto 3rem;  
     }
-    .about_cards{
+    /* .about_cards{
         grid-template-columns: 1fr 1fr;
         gap: 3rem;
-    }
+    } */
     .about__content{
         text-align: center;
     }
