@@ -27,10 +27,10 @@ const Service = () => {
       skills: " Git, Github Action, Docker.",
     },
     {
-      id: 3,
+      id: 4,
       logo: <SiJirasoftware/>,
       title: "Project Management Tool",
-      skills: "Jira",
+      skills: "Jira, Shortcut and Slack",
     },
   ];
 

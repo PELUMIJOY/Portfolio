@@ -5,30 +5,29 @@ const Portfolio = () => {
   const data = [
     {
       id: 1,
-      title: "Food Service Application",
-      demo: " https://foodorderring.netlify.app/",
+      title: "Nexus Dashboard",
+      demo: " https://nexus.mikro.africa/",
     },
     {
       id: 2,
-      title: "Star Wars Picture Gallery",
-      demo: " https://pelumijoy-starwar-project.netlify.app",
+      title: "Charitable App",
+      demo: " https://levelup-alpha.vercel.app/",
     },
     {
       id: 3,
-      title: "Css Animation Torist website",
-      demo: " https://tourism-world.netlify.app",
+      title: "Calculator App",
+      demo: " https://calculatorapp-art9.onrender.com/",
     },
 
     {
       id: 4,
-      title:"Book Management Application (Backend)",
-      demo: "https://github.com/PELUMIJOY/BookLibrary",
+      title: "Annimation App",
+      demo: "https://threed-animation-website.onrender.com/",
     },
-    
     {
       id: 5,
-      title: "Static Residence website",
-      demo: "https://cool-life.netlify.app/",
+      title:"Book Management Application (Backend)",
+      demo: "https://github.com/PELUMIJOY/BookLibrary",
     },
   ];
   return (
